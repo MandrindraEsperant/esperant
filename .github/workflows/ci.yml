@@ -1,0 +1,29 @@
+# .github/workflows/ci.yml
+name: CI - Vérification du build Next.js
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Cloner le dépôt
+        uses: actions/checkout@v3
+
+      - name: 🟢 Configurer Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📦 Installer les dépendances
+        run: npm install
+
+      - name: 🛠️ Build du projet
+        run: npm run build
