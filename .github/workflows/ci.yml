@@ -27,3 +27,7 @@ jobs:
 
       - name: 🛠️ Build du projet
         run: npm run build
+
+      - name : Lancer le teste
+        run : npm run test
+
