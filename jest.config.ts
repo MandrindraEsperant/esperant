@@ -7,8 +7,9 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testEnvironment: 'jsdom',
-    moduleNameMapper: {
-    '^@/components/(.*)$': '<rootDir>/components/$1',
+  roots: ['<rootDir>/__tests__'],
+  transform: {
+    '^.+\\.tsx?$': 'ts-jest', // Transformation des fichiers TypeScript
   },
 }
 
