@@ -1,7 +1,7 @@
 import "./style.css";
 import { BiLogoGithub, BiLogoLinkedin, BiLogoTwitter } from "react-icons/bi";
-import Image from 'next/image';
-import myImage from './home.png';
+import Image from "next/image";
+import myImage from "./home.png";
 export default function Home() {
   return (
     <div>
@@ -65,7 +65,7 @@ export default function Home() {
               Download CV
             </a>
             <div className="sci">
-              <a href="#">
+              <a href="https://github.com/MandrindraEsperant/">
                 <i>
                   {" "}
                   <BiLogoGithub size={24} />
@@ -88,12 +88,7 @@ export default function Home() {
         <div className="home-img">
           <div className="img-box">
             <div className="img-item">
-              <Image
-        src={myImage}
-        alt="Description de l'image"
-       
-      />
-              
+              <Image src={myImage} alt="Description de l'image" />
             </div>
           </div>
         </div>
