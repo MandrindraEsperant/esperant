@@ -42,14 +42,14 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "mandrindra.esperant@example.com",
-      href: "mailto:mandrindra.esperant@example.com",
+      value: "mandrindraesperant@gmail.com",
+      href: "mailto:mandrindraesperant@gmail.com",
     },
     {
       icon: Phone,
       label: "Téléphone",
-      value: "+261 34 12 345 67",
-      href: "tel:+261341234567",
+      value: "+261 38 06 900 32",
+      href: "tel:+261380690032",
     },
     {
       icon: MapPin,
