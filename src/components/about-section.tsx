@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { useLanguage } from "@/components/language-provider"
 import { motion, useInView } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
+import Image from "next/image"
 
 function useAnimatedCounter(end: number, duration = 2000, startAnimation = false) {
   const [count, setCount] = useState(0)
@@ -35,7 +36,7 @@ function useAnimatedCounter(end: number, duration = 2000, startAnimation = false
 export function AboutSection() {
   const { t } = useLanguage()
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, threshold: 0.3 })
+  const isInView = useInView(ref, { once: true })
 
   const experienceCount = useAnimatedCounter(5, 2000, isInView)
   const projectsCount = useAnimatedCounter(50, 2500, isInView)
@@ -81,9 +82,11 @@ export function AboutSection() {
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
               >
-                <img
-                  src="/home.png"
+                <Image
+                  src="/homme.png"
                   alt="Mandrindra Espérant"
+                  width={320}
+                  height={320}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent" />

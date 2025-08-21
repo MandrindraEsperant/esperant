@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
+import Image from "next/image"
 
 export function ProjectsSection() {
   const { t } = useLanguage()
@@ -61,9 +62,11 @@ export function ProjectsSection() {
               className="group hover:shadow-xl transition-all duration-300 overflow-hidden border-border"
             >
               <div className="relative overflow-hidden">
-                <img
+                <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
+                  width={400}
+                  height={192}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">

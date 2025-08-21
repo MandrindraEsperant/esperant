@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Facebook, Download, ArrowRight } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { motion } from "framer-motion"
-import Image from "next/image"
+import Image from "next/image" 
 
 export function HeroSection() {
   const { t } = useLanguage()
@@ -101,8 +101,8 @@ export function HeroSection() {
             >
               {[
                 { href: "https://github.com/MandrindraEsperant", icon: Github, label: "GitHub" },
-                { href: "https://linkedin.com/in/mandrindra-esperant", icon: Linkedin, label: "LinkedIn" },
-                { href: "https://facebook.com/esperant.dev", icon: Facebook, label: "Facebook" },
+                { href: "https://www.linkedin.com/in/mandrindra-esp%C3%A9rant-randriamahasoa-55129428b/", icon: Linkedin, label: "LinkedIn" },
+                { href: "https://www.facebook.com/mandrindraesperant.randriamahasoa", icon: Facebook, label: "Facebook" },
               ].map(({ href, icon: Icon, label }, index) => (
                 <motion.a
                   key={label}

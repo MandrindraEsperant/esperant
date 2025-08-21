@@ -14,7 +14,7 @@ export function Footer() {
           <div>
             <h3 className="text-2xl font-black font-montserrat text-primary mb-4">Espérant.</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Développeur Full Stack passionné par la création d'expériences digitales exceptionnelles.
+              Développeur Full Stack passionné par la création d&apos;expériences digitales exceptionnelles.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export function Footer() {
                 <span className="font-medium">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/mandrindra-esperant"
+                href="https://www.linkedin.com/in/mandrindra-esp%C3%A9rant-randriamahasoa-55129428b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-all duration-200 group"
@@ -72,7 +72,7 @@ export function Footer() {
                 <span className="font-medium">LinkedIn</span>
               </a>
               <a
-                href="https://facebook.com/esperant.dev"
+                href="https://www.facebook.com/mandrindraesperant.randriamahasoa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-all duration-200 group"
