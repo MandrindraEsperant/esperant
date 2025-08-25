@@ -25,11 +25,12 @@ export function HeroSection() {
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
+
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-center lg:text-left"
+            className="text-center mt-20 md:mt-0 lg:text-left "
           >
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -39,7 +40,7 @@ export function HeroSection() {
             >
               {t("hero.greeting")}
             </motion.p>
-
+ 
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -55,7 +56,7 @@ export function HeroSection() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-2xl sm:text-3xl lg:text-4xl font-bold font-serif mb-8"
             >
-              <span className="text-primary bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
                 {t("hero.title")}
               </span>
             </motion.div>
@@ -151,7 +152,7 @@ export function HeroSection() {
                   transition={{ duration: 0.3 }}
                 >
                   <Image
-                    src="/home.png"
+                    src="/homme1.png"
                     alt="Mandrindra Espérant - Développeur Full Stack"
                     width={400}
                     height={400}

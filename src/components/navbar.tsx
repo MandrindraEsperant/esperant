@@ -59,7 +59,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold font-montserrat text-primary">Espérant.</h1>
+            <h1 onClick={() => scrollToSection("#home")} className="text-xl font-bold font-montserrat text-primary">Espérant.</h1>
           </div>
 
           {/* Desktop Navigation */}

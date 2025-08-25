@@ -26,7 +26,7 @@ export function ContactSection() {
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1000))
 
-    alert(t("contact.success"))
+    // alert(t("contact.success"))
     setFormData({ name: "", email: "", message: "" })
     setIsSubmitting(false)
   }

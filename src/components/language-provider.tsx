@@ -29,14 +29,14 @@ const translations = {
     "hero.title": "Développeur Full Stack",
     "hero.subtitle": "Architecte Logiciel",
     "hero.description":
-      "Passionné par la création d'applications web modernes et performantes. Je transforme vos idées en solutions digitales innovantes avec une approche centrée sur l'expérience utilisateur.",
+      "Développeur passionné avec plus de deux ans d'expérience dans la création d'applications web modernes. Je transforme vos idées en solutions digitales innovantes avec une approche centrée sur l'expérience utilisateur.",
     "hero.cta": "Voir mes projets",
     "hero.download": "Télécharger CV",
 
     // About Section
     "about.title": "À propos de moi",
     "about.description":
-      "Développeur passionné avec plusieurs années d'expérience dans la création d'applications web et mobiles. J'aime résoudre des problèmes complexes et créer des solutions élégantes.",
+      "Développeur passionné avec plus de deux ans d'expérience dans la création d'applications web. Curieux et motivé, j'aime explorer de nouvelles technologies, relever des défis complexes et concevoir des solutions élégantes et performantes. Actuellement, je poursuis une formation continue afin d'approfondir mes compétences en développement full-stack.",
     "about.experience": "Années d'expérience",
     "about.projects": "Projets réalisés",
     "about.clients": "Clients satisfaits",
@@ -59,11 +59,24 @@ const translations = {
     "skills.backend": "Backend",
     "skills.database": "Base de données",
     "skills.tools": "Outils",
+    "skills.data": "Data analyst/science ",
+
 
     // Projects Section
     "projects.title": "Mes Projets",
     "projects.view": "Voir le projet",
     "projects.code": "Code source",
+    "projects.teleconsultation.title": "Plateforme de téléconsultation",
+    "projects.teleconsultation.description":
+      "Plateforme permettant aux patients et médecins de réaliser des consultations médicales à distance de manière sécurisée.",
+    "projects.crm.title": "CRM",
+    "projects.crm.description":
+      "Un CRM est une application qui centralise les informations et interactions clients pour optimiser la gestion commerciale, le marketing et la relation client",
+    "projects.portfolio.title": "Portfolio Website",
+    "projects.portfolio.description": "Site portfolio moderne et responsive avec animations fluides.",
+    "projects.expedition.title": "Suivi des expéditions",
+    "projects.expedition.description":
+      "Application permettant de suivre en temps réel l'état et la localisation des expéditions.",
 
     // Contact Section
     "contact.title": "Contactez-moi",
@@ -92,14 +105,14 @@ const translations = {
     "hero.title": "Full Stack Developer",
     "hero.subtitle": "Software Architect",
     "hero.description":
-      "Passionate about creating modern and performant web applications. I transform your ideas into innovative digital solutions with a user-centered approach.",
+      "Passionate developer with over two years of experience in creating modern web applications. I transform your ideas into innovative digital solutions with a user-centered approach.",
     "hero.cta": "View my projects",
     "hero.download": "Download CV",
 
     // About Section
     "about.title": "About Me",
     "about.description":
-      "Passionate developer with several years of experience in creating web and mobile applications. I love solving complex problems and creating elegant solutions.",
+      "Passionate developer with over two years of experience in web application development. Curious and motivated, I love exploring new technologies, tackling complex challenges and designing elegant and efficient solutions. Currently, I am pursuing continuous training to deepen my full-stack development skills.",
     "about.experience": "Years of experience",
     "about.projects": "Projects completed",
     "about.clients": "Happy clients",
@@ -121,11 +134,22 @@ const translations = {
     "skills.backend": "Backend",
     "skills.database": "Database",
     "skills.tools": "Tools",
+    "skills.data": "Analyse/Science de données",
 
     // Projects Section
     "projects.title": "My Projects",
     "projects.view": "View project",
     "projects.code": "Source code",
+    "projects.teleconsultation.title": "Telemedicine Platform",
+    "projects.teleconsultation.description":
+      "Platform allowing patients and doctors to conduct secure remote medical consultations.",
+    "projects.crm.title": "CRM",
+    "projects.crm.description":
+      "A CRM is an application that centralizes customer information and interactions to optimize sales management, marketing and customer relations",
+    "projects.portfolio.title": "Portfolio Website",
+    "projects.portfolio.description": "Modern and responsive portfolio website with smooth animations.",
+    "projects.expedition.title": "Shipment Tracking",
+    "projects.expedition.description": "Application allowing real-time tracking of shipment status and location.",
 
     // Contact Section
     "contact.title": "Contact Me",

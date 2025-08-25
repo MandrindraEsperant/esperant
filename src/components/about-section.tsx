@@ -38,9 +38,9 @@ export function AboutSection() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true })
 
-  const experienceCount = useAnimatedCounter(5, 2000, isInView)
-  const projectsCount = useAnimatedCounter(50, 2500, isInView)
-  const clientsCount = useAnimatedCounter(30, 2200, isInView)
+  const experienceCount = useAnimatedCounter(2, 2000, isInView)
+  const projectsCount = useAnimatedCounter(15, 2500, isInView)
+  const clientsCount = useAnimatedCounter(10, 2200, isInView)
 
   const stats = [
     { number: `${experienceCount}+`, label: t("about.experience") },
