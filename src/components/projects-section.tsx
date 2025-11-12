@@ -12,32 +12,32 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      title: "Platforme de téleconsultation ",
-      description: "Plateforme permettant aux patients et médecins de réaliser des consultations médicales à distance de manière sécurisée.",
+      title: t("projects.teleconsultation.title"),
+      description: t("projects.teleconsultation.description"),
       image: "/chu.png",
       technologies: ["Next.js", "TypeScript", "Express", "PostgreSQL","Prisma","Socket.io","SimplePeer","JWT"],
       liveUrl: null, // Disabled live URL for non-portfolio projects
       githubUrl: "https://github.com/MandrindraEsperant/chu_teleconsultation.git",
     },
     {
-      title: "CRM",
-      description: "Un CRM est une application qui centralise les informations et interactions clients pour optimiser la gestion commerciale, le marketing et la relation client",
+      title: t("projects.crm.title"),
+      description: t("projects.crm.description"),
       image: "/crm.png",
       technologies: ["Next.js","Tailwind CSS", "FastAPI", "PostgreSQL"],
       liveUrl: null, // Disabled live URL for non-portfolio projects
       githubUrl: "https://github.com/sarobidy-dev/CRM_Stage.git",
     },
     {
-      title: "Portfolio Website",
-      description: "Site portfolio moderne et responsive avec animations fluides.",
+     title: t("projects.portfolio.title"),
+      description: t("projects.portfolio.description"),
       image: "/porfolio.png",
       technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
       liveUrl: "https://esperant-porfolio.vercel.app/", // Enabled live URL only for portfolio project
       githubUrl: "https://github.com/MandrindraEsperant/esperant",
     },
     {
-      title: "Suivi des expédition",
-      description: "Application permettant de suivre en temps réel l’état et la localisation des expéditions.",
+      title: t("projects.expedition.title"),
+      description: t("projects.expedition.description"),
       image: "/primex.jpeg",
       technologies: ["Node.js", "Express", "React", "MySQL","Tailwind CSS","JWT"],
       liveUrl: null, // Disabled live URL for non-portfolio projects

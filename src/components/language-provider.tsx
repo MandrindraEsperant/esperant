@@ -86,9 +86,17 @@ const translations = {
     "contact.message": "Message",
     "contact.send": "Envoyer",
     "contact.success": "Message envoyé avec succès !",
+    "contact.sendmessage":"Envoyez-moi un message",
+    "contact.info":"Informations de contact",
+    "contact.map":"Carte interactive",
 
     // Footer
     "footer.rights": "Tous droits réservés.",
+    "footer.madewith": "Fait avec ",
+    "footer.in": "à Madagascar",
+    "footer.followme": "Suivez-moi",
+    "footer.quicklinks": "Liens rapides",
+    "footer.description":"Développeur Full Stack animé par la passion de créer des expériences digitales exceptionnelles.",
   },
   en: {
     // Navigation
@@ -159,9 +167,18 @@ const translations = {
     "contact.message": "Message",
     "contact.send": "Send",
     "contact.success": "Message sent successfully!",
+    "contact.sendmessage":"Send me a message",
+    "contact.info":"Contact informations",
+    "contact.map":"Interactive map",
 
     // Footer
     "footer.rights": "All rights reserved.",
+    "footer.madewith": "Made with ",
+    "footer.in": " in Madagascar",
+    "footer.followme": "Follow me",
+    "footer.quicklinks": "Quick links",
+    "footer.description":"Full Stack Developer driven by a passion for building outstanding digital experiences."
+
   },
 }
 

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Facebook, Download, ArrowRight } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { motion } from "framer-motion"
-import Image from "next/image" 
+import Image from "next/image"
 
 export function HeroSection() {
   const { t } = useLanguage()
@@ -40,7 +40,7 @@ export function HeroSection() {
             >
               {t("hero.greeting")}
             </motion.p>
- 
+
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -85,6 +85,12 @@ export function HeroSection() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/CV_Mandrindra_Espérant.pdf';
+                  link.download = 'Mandrindra_RANDRIAMAHASOA_CV.pdf';
+                  link.click();
+                }}
                 variant="outline"
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-semibold px-8 py-3 bg-transparent transform hover:scale-105 transition-all duration-200"

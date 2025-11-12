@@ -59,7 +59,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 onClick={() => scrollToSection("#home")} className="text-xl font-bold font-montserrat text-primary">Espérant.</h1>
+            <h1 onClick={() => scrollToSection("#home")} className="cursor-pointer text-xl font-bold font-montserrat text-primary">Espérant.</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -69,7 +69,7 @@ export function Navbar() {
                 <button
                   key={item.key}
                   onClick={() => scrollToSection(item.href)}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
+                  className={`cursor-pointer px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
                     activeSection === item.href.substring(1)
                       ? "text-primary bg-primary/10"
                       : "text-muted-foreground hover:text-primary hover:bg-primary/5"

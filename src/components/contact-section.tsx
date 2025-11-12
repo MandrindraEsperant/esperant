@@ -72,7 +72,7 @@ export function ContactSection() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold font-montserrat mb-6">Informations de contact</h3>
+              <h3 className="text-2xl font-bold font-montserrat mb-6">{t("contact.info")}</h3>
               <div className="space-y-4">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-center space-x-4">
@@ -99,7 +99,7 @@ export function ContactSection() {
                 <div className="h-64 bg-muted rounded-lg flex items-center justify-center">
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-muted-foreground mx-auto mb-2" />
-                    <p className="text-muted-foreground">Carte interactive</p>
+                    <p className="text-muted-foreground">{t("contact.map")}</p>
                   </div>
                 </div>
               </CardContent>
@@ -109,7 +109,7 @@ export function ContactSection() {
           {/* Contact Form */}
           <Card>
             <CardHeader>
-              <CardTitle className="text-2xl font-bold font-montserrat">Envoyez-moi un message</CardTitle>
+              <CardTitle className="text-2xl font-bold font-montserrat">{t("contact.sendmessage")} </CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
