@@ -57,9 +57,10 @@ export function Footer() {
                 { href: "https://github.com/MandrindraEsperant", icon: Github, label: "GitHub" },
                 { href: "https://www.linkedin.com/in/mandrindra-esp%C3%A9rant-randriamahasoa-55129428b/", icon: Linkedin, label: "LinkedIn" },
                 { href: "https://www.facebook.com/mandrindraesperant.randriamahasoa", icon: Facebook, label: "Facebook" },
-              ].map(({ href, icon: Icon, label }, index) => (
+              ].map(({ href, icon: Icon, label }) => (
                 <a                  
                   href={href}
+                  key={href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-all duration-200 group"
