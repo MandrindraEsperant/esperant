@@ -59,7 +59,8 @@ const translations = {
     "skills.backend": "Backend",
     "skills.database": "Base de données",
     "skills.tools": "Outils",
-    "skills.data": "Data analyst/science ",
+    "skills.data": "Analyse/Science de données",
+
 
 
     // Projects Section
@@ -142,7 +143,9 @@ const translations = {
     "skills.backend": "Backend",
     "skills.database": "Database",
     "skills.tools": "Tools",
-    "skills.data": "Analyse/Science de données",
+    "skills.data": "Data analyst/science ",
+    
+
 
     // Projects Section
     "projects.title": "My Projects",

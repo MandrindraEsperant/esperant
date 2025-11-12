@@ -33,7 +33,7 @@ export function SkillsSection() {
 
   const skillCategories = [
     {
-      title: "Backend",
+      title: t("skills.backend"),
       icon: <Server className="w-8 h-8" />,
       skills: [
         { name: "Express", icon: <Zap className="w-5 h-5" /> },
@@ -45,7 +45,7 @@ export function SkillsSection() {
       color: "from-blue-500 to-cyan-500",
     },
     {
-      title: "Frontend",
+      title: t("skills.frontend"),
       icon: <Monitor className="w-8 h-8" />,
       skills: [
         { name: "React", icon: <Atom className="w-5 h-5" /> },
@@ -62,7 +62,7 @@ export function SkillsSection() {
       color: "from-green-500 to-emerald-500",
     },
     {
-      title: "Base de données",
+      title: t("skills.database"),
       icon: <Database className="w-8 h-8" />,
       skills: [
         { name: "PostgreSQL", icon: <Database className="w-5 h-5" /> },
@@ -72,7 +72,7 @@ export function SkillsSection() {
       color: "from-orange-500 to-red-500",
     },
     {
-      title: "Analyse/Science de données",
+      title: t("skills.data"),
       icon: <BarChart3 className="w-8 h-8" />,
       skills: [
         { name: "Python", icon: <Zap className="w-5 h-5" /> },
