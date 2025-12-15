@@ -1,34 +1,63 @@
 "use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Code, Smartphone, Server, Users } from "lucide-react"
+import { Code, Smartphone, Server, Users, CloudCog } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export function ServicesSection() {
   const { t } = useLanguage()
 
-  const services = [
-    {
-      icon: Code,
-      title: t("services.web.title"),
-      description: t("services.web.description"),
-    },
-    {
-      icon: Smartphone,
-      title: t("services.mobile.title"),
-      description: t("services.mobile.description"),
-    },
-    {
-      icon: Server,
-      title: t("services.backend.title"),
-      description: t("services.backend.description"),
-    },
-    {
-      icon: Users,
-      title: t("services.consulting.title"),
-      description: t("services.consulting.description"),
-    },
-  ]
+  // const services = [
+  //   {
+  //     icon: Code,
+  //     title: t("services.web.title"),
+  //     description: t("services.web.description"),
+  //   },
+  //   {
+  //     icon: Smartphone,
+  //     title: t("services.mobile.title"),
+  //     description: t("services.mobile.description"),
+  //   },
+  //   {
+  //     icon: Server,
+  //     title: t("services.backend.title"),
+  //     description: t("services.backend.description"),
+  //   },
+  //   {
+  //     icon: Users,
+  //     title: t("services.consulting.title"),
+  //     description: t("services.consulting.description"),
+  //   },
+  // ]
+
+const services = [
+  {
+    icon: Code,
+    title: t("services.web.title"),
+    description: t("services.web.description"),
+  },
+  {
+    icon: Smartphone,
+    title: t("services.mobile.title"),
+    description: t("services.mobile.description"),
+  },
+  {
+    icon: Server,
+    title: t("services.backend.title"),
+    description: t("services.backend.description"),
+  },
+  {
+    icon: CloudCog,
+    title: t("services.devops.title"),
+    description: t("services.devops.description"),
+  },
+  {
+    icon: Users,
+    title: t("services.consulting.title"),
+    description: t("services.consulting.description"),
+  },
+];
+
 
   return (
     <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">

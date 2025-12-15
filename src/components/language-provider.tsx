@@ -52,7 +52,8 @@ const translations = {
     "services.backend.description": "Conception et développement d'APIs robustes et scalables.",
     "services.consulting.title": "Conseil Technique",
     "services.consulting.description": "Accompagnement dans vos choix technologiques et architecture.",
-
+    "services.devops.title": "DevOps & Automatisation",
+    "services.devops.description": "Mise en place de pipelines CI/CD, conteneurisation Docker, orchestration, sécurisation et déploiement des applications.",
     // Skills Section
     "skills.title": "Mes Compétences",
     "skills.frontend": "Frontend",
@@ -137,6 +138,9 @@ const translations = {
     "services.consulting.title": "Technical Consulting",
     "services.consulting.description": "Support in your technological choices and architecture.",
 
+    "services.devops.title":"DevOps & Automation",
+    "services.devops.description":"CI/CD pipelines, Docker containerization, orchestration, server security and automated deployments."
+,
     // Skills Section
     "skills.title": "My Skills",
     "skills.frontend": "Frontend",
