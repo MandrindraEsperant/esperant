@@ -26,6 +26,8 @@ import {
   Package,
   Rocket,
   Container,
+  Layers,
+  Gitlab,
 } from "lucide-react"
 
 export function SkillsSection() {
@@ -86,10 +88,15 @@ export function SkillsSection() {
       icon: <Settings className="w-8 h-8" />,
       skills: [
         { name: "Git", icon: <GitBranch className="w-5 h-5" /> },
-        { name: "Jenkins", icon: <Wrench className="w-5 h-5" /> },
-        { name: "Nexus", icon: <Package className="w-5 h-5" /> },
+        { name: "GitLab (CI/CD & Runner)", icon: <Gitlab className="w-5 h-5" /> },
         { name: "GitHub Actions", icon: <Rocket className="w-5 h-5" /> },
+
         { name: "Docker", icon: <Container className="w-5 h-5" /> },
+        { name: "Docker Swarm", icon: <Layers className="w-5 h-5" /> },
+
+        { name: "Jenkins", icon: <Wrench className="w-5 h-5" /> },
+        { name: "SonarQube", icon: <Package className="w-5 h-5" /> },
+
       ],
       color: "from-teal-500 to-blue-500",
     },
